@@ -2,6 +2,73 @@
 
 GymPass Style App
 
+API RESTfull com NodeJS, com uso de frameworks e bibliotecas externas.
+
+Neste projeto foram utilizados:
+- `Fastify`
+- `TypeScript`
+- `ESLint`
+- `Prisma`
+- `Zod`
+- `Postgres`
+- `Docker`
+- `Testes E2E e Unitários com Vitest`
+- `JWT`
+
+## 💻 Pré-requisitos
+
+Para rodar o projeto é necessário ter instalado:
+
+- `NodeJS`
+- `Npm`
+- `Insomnia` ou similares
+
+
+## 🚩 Instalando Dependências
+
+Para instalar as dependências da aplicação, execute:
+
+```
+npm install
+```
+
+
+## 📜 Migrations
+
+Para executar as migrations, execute:
+
+```
+npx prisma migrate dev
+```
+
+## 🚀 Executando
+
+Para rodar a aplicação, execute:
+
+```
+npm run dev
+```
+
+## 🚦 Testes
+
+Para rodar os testes unitários da aplicação, execute:
+
+```
+npm test
+```
+
+Para rodar os testes E2E da aplicação, execute:
+
+```
+npm test:e2e
+```
+
+## 💾 Arquivos
+
+O arquivo `Insomnia_2024_02_16.json`, na raiz do projeto, é para a importação das rotas desta API no Insomnia.
+
+
+
 ## RFs
 - [x] Deve ser possível se cadastrar
 - [x] Deve ser possível se autenticar
